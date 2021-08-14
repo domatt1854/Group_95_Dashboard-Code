@@ -122,7 +122,7 @@ if album_option == "Tyler the Creator: Call Me If You Get Lost":
     #Album Thumbnail and Title
     with col_image:
         st.markdown(f"<h1 style='text-align: center; color: #000000;'>{album_option}</h1>", unsafe_allow_html=True)
-        st.image("Tyler-The-Creator-Call-Me-If-You-Get-Lost.png")
+        st.image(IMAGES_FILE_PATH + "Tyler-The-Creator-Call-Me-If-You-Get-Lost.png")
 
     # Setting Files and String Variables
     hashtag_name = '#CallMeIfYouGetLost'
@@ -144,7 +144,7 @@ if album_option == "Maroon 5: JORDI":
     #Album Thumbnail and Title
     with col_image:
         st.markdown(f"<h1 style='text-align: center; color: #000000;'>{album_option}</h1>", unsafe_allow_html=True)
-        st.image("Maroon5.jpg", use_column_width = 'auto')
+        st.image(IMAGES_FILE_PATH + "Maroon5.jpg", use_column_width = 'auto')
 
     # Setting Files and String Variables
     hashtag_name = '#JORDI'
