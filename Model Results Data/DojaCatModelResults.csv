@@ -1,0 +1,4 @@
+,Model,Unigram,Uni-Bi/Gram,Uni-Bi-Tri/Gram
+0,Logistic Regression,82%,92%,92%
+1,Linear SVM,95%,94%,93%
+2,Multinomial NB,79%,80%,79%
